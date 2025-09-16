@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <StartupObject>ArraysAndStrings.InsertDeleteGetRandom.Solution</StartupObject>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MSTest.Analyzers" Version="3.10.3">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="MSTest.TestAdapter" Version="3.10.3" />
+      <PackageReference Include="MSTest.TestFramework" Version="3.10.3" />
+    </ItemGroup>
+
+</Project>
